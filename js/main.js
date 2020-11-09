@@ -27,6 +27,10 @@ const app = new Vue({
             if (this.indexImages < 0){
                 this.indexImages = this.images.length - 1;
             }
+        },
+
+        setImages(index){
+            this.indexImages = index;
         }
     }
 });

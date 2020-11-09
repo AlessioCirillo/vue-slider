@@ -29,6 +29,7 @@
                 <i v-for= '(image, index) in images' 
                 class="fas fa-circle"
                 :class= "index == indexImages ? 'active' : ''"
+                @click='setImages(index)'
                 >
                 </i>
             </div>
