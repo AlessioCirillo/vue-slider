@@ -10,7 +10,10 @@
 </head>
 <body>  
     <div id="app">
-        <div class="container">
+        <div class="container"
+            @mouseenter="stopLoop"
+            @mouseleave="startLoop"
+        >
 
             <div class="prev" @click='prevPhoto'>
                 <i class="fas fa-arrow-left"></i>
