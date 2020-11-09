@@ -57,10 +57,14 @@
     background: rgba(0, 0, 0, .7);
 }
 
-.circle > i{
+.circle i{
     color: rgba(255, 255, 255, .7);
     font-size: 22px;
     cursor: pointer;
+}
+
+.circle i.active{
+    color:dodgerblue;
 }
 
 .prev:hover,

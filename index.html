@@ -25,10 +25,12 @@
             </div>
 
             <div class="circle">
-                <i class="fas fa-circle"></i>
-                <i class="fas fa-circle"></i>
-                <i class="fas fa-circle"></i>
-                <i class="fas fa-circle"></i>
+                
+                <i v-for= '(image, index) in images' 
+                class="fas fa-circle"
+                :class= "index == indexImages ? 'active' : ''"
+                >
+                </i>
             </div>
         </div>
     </div>
